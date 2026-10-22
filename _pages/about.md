@@ -7,13 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an M.Sc. student in Transportation Engineering in the Department of Civil and Environmental Engineering at the University of Washington, where I work with Dr. Don MacKenzie. Before coming to UW, I received an M.Sc. in Transportation Engineering from Islamic Azad University, Science and Research Branch, in Tehran, and a B.Sc. in Civil Engineering from Ilam University. I am looking for a PhD position in aerospace or transportation engineering.
+M.Sc. student in Transportation Engineering in the Department of Civil and Environmental Engineering at the University of Washington
 
 Research interests
 ------
 My research interest is in optimization, control, and decision making for operations research problems in transportation, and in particular for air traffic systems, including commercial aircraft, unmanned aerial vehicles (UAVs), and vertical take-off and landing (VTOL and eVTOL) aircraft. The main question for me is how a vehicle should be operated, for example which trajectory, altitude, and speed a flight should take, when the decision has to consider the cost to the operator, the cost to society, and the uncertainty of the conditions. In other words, I want to build methods that support these decisions, and not only describe the system.
-
-Such decisions depend on data, and real data is rarely clean. For this reason, a part of my work is about learning from incomplete and noisy trajectory data, so that the optimization and control models have a realistic picture of the system to work with.
 
 What I have worked on
 ------
