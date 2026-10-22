@@ -12,10 +12,10 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Hesam Shafiei Nia"
 title_separator          : "-"
 name                     : &name "Hesam Shafiei Nia"
-description              : &description "Hesam Shafiei Nia: deep learning and generative modeling of flight trajectories, aviation emissions, and transportation decision support"
-url                      : https://Hesamgto.github.io
+description              : &description "M.Sc. Student at University of Washington"
+url                      : https://hesamshafieinia.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Hesamgto/Hesamgto.github.io"
+repository               : "hesamshafieinia/hesamshafieinia.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"   # put your photo in /images/profile.png
   name             : "Hesam Shafiei Nia"
   pronouns         : # example: "she/her"
-  bio              : "M.Sc. student in Transportation Engineering at the University of Washington. Optimization, control, and decision making for transportation and air traffic systems (aircraft, UAVs, eVTOL). Seeking PhD positions in aerospace or transportation engineering."
+  bio              : "M.Sc. Student at University of Washington"
   location         : "Seattle, WA"
   employer         : "University of Washington"
   uri              : # URL
@@ -50,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # Username, e.g. "YOUR-GITHUB-USERNAME" (leave blank to hide the GitHub icon)
+  github           : "hesamshafieinia"
   kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
@@ -145,7 +145,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : og-image.png   # Social media default site image (lives in /images/)
-og_description           : "Hesam Shafiei Nia: generative modeling of flight trajectories and aviation emissions"  # Social media default site image description
+og_description           : "Hesam Shafiei Nia, M.Sc. Student at University of Washington"  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
