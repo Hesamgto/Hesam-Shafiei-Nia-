@@ -1,56 +1,29 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am an M.Sc. student in Transportation Engineering in the Department of Civil and Environmental Engineering at the University of Washington, where I work with Dr. Don MacKenzie. Before coming to UW, I received an M.Sc. in Transportation Engineering from Islamic Azad University, Science and Research Branch, in Tehran, and a B.Sc. in Civil Engineering from Ilam University. I am looking for a PhD position in aerospace or transportation engineering.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+Research interests
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+My research interest is in optimization, control, and decision making for operations research problems in transportation, and in particular for air traffic systems, including commercial aircraft, unmanned aerial vehicles (UAVs), and vertical take-off and landing (VTOL and eVTOL) aircraft. The main question for me is how a vehicle should be operated, for example which trajectory, altitude, and speed a flight should take, when the decision has to consider the cost to the operator, the cost to society, and the uncertainty of the conditions. In other words, I want to build methods that support these decisions, and not only describe the system.
 
-Create content & metadata
+Such decisions depend on data, and real data is rarely clean. For this reason, a part of my work is about learning from incomplete and noisy trajectory data, so that the optimization and control models have a realistic picture of the system to work with.
+
+What I have worked on
 ------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* **Flight trajectory prediction.** At the University of California, Irvine, with Dr. Amelia Regan, I developed a hybrid deep learning model, CG3D, which combines a CNN, a GRU, and a 3D-CNN to predict 4D flight trajectories from ADS-B data at Hartsfield-Jackson Atlanta International Airport. This work was published in *Transportation Research Part C* (2022) and at the *IEEE Aerospace Conference* (2022).
+* **Data imputation and emissions mapping.** ADS-B data has many gaps, and in the January 2025 data of Seattle, San Francisco, and Los Angeles, more than half of the flights had a missing segment. I developed an autoencoder that fills these gaps, and then I estimated the fuel burn and the emissions along each flight with the BADA aircraft performance model to map the emissions and their social cost in three dimensions.
+* **Generative trajectory modeling.** For my M.Sc. thesis, I developed a conditional variational autoencoder with a VampPrior that generates new flight trajectories for a requested route, departure time, and cruise condition. The generated flights are priced for the airline cost and the external cost, and the trade-off between the two is shown as a Pareto frontier. I present this work at the 2026 INFORMS Annual Meeting.
+* **Earlier work.** I worked on the electrification and emissions of heavy- and medium-duty delivery vehicles at the Urban Freight Lab at UW, and on microscopic traffic simulation of pedestrian and public transportation infrastructure with AIMSUN in Iran.
 
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+What I want to do next
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+The generative model gives a set of plausible alternatives for a flight, but it does not choose the best one. The next step, and the direction I want to follow in my PhD, is to optimize and control these trajectories, with an objective that includes both the airline cost and the external cost, and under the uncertainty of the wind and the weather. I am also interested in applying the same approach to UAVs, delivery drones, and eVTOL aircraft, where the airspace is shared, the vehicles are new, and the operating rules are still being defined.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+I am happy to hear from you about PhD positions, collaborations, or questions about my work. You can reach me at [hesamsh@uw.edu](mailto:hesamsh@uw.edu), and my [CV](/files/Hesam_Shafiei_Nia_CV.pdf) and [resume](/files/Hesam_Shafiei_Nia_Resume.pdf) are available on this site.
