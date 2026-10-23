@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an M.Sc. student in Transportation Engineering in the Department of Civil and Environmental Engineering at the University of Washington. Before coming to UW, I received a B.Sc. in Civil Engineering from Ilam University from Iran. I am looking for a PhD position in aerospace or transportation engineering.
+I am an M.Sc. student in Transportation Engineering in the Department of Civil and Environmental Engineering at the University of Washington. Before coming to UW, I received a B.Sc. in Civil Engineering from Ilam University, Iran. I am looking for a PhD position in aerospace or transportation engineering.
 
 Research interests
 ------
